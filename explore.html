@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a wide range of skills offered by students on SkillBridge. Find programming, design, languages, and more.">
+    <title>Explore Skills - SkillBridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">SB</div>
+                <div>
+                    <span class="logo-text">SkillBridge</span>
+                    <span class="logo-tagline">Peer-to-Peer Learning</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html" class="active">Explore Skills</a></li>
+                <li><a href="mentors.html">Find Mentors</a></li>
+                <li><a href="requests.html">Requests</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-signin">Sign In</a>
+                <a href="login.html" class="btn btn-primary btn-sm">Join Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Explore Skills</h1>
+                <p class="page-subtitle">Discover skills offered by students across campus and find your next learning opportunity.</p>
+            </div>
+        </section>
+
+        <!-- Search and Filters -->
+        <section class="search-filters">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="Search for skills like Python, Figma, Photography...">
+                    <select class="filter-select">
+                        <option>All Categories</option>
+                        <option>Programming</option>
+                        <option>Design</option>
+                        <option>Language</option>
+                        <option>Photography</option>
+                        <option>Business</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>All Levels</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                    </select>
+                </div>
+                <div class="filter-pills">
+                    <span class="filter-pill active">All</span>
+                    <span class="filter-pill">Programming</span>
+                    <span class="filter-pill">Design</span>
+                    <span class="filter-pill">Language</span>
+                    <span class="filter-pill">Photography</span>
+                    <span class="filter-pill">Business</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Grid -->
+        <section class="section">
+            <div class="container">
+                <div class="skill-grid">
+                    <!-- Skill Card 1 - Python -->
+                    <div class="skill-card">
+                        <img src="images/skill-python.jpg" alt="Python Programming" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-programming">Programming</span>
+                                <span class="difficulty-badge">Beginner</span>
+                            </div>
+                            <h3 class="skill-card-title">Python Programming</h3>
+                            <p class="skill-card-desc">Master Python fundamentals, loops, data structures, and script automation.</p>
+                            <p class="skill-card-teacher">Taught by Arjun Mehta</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">2 mentors available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 2 - UI/UX Design -->
+                    <div class="skill-card">
+                        <img src="images/skill-uiux.jpg" alt="UI/UX Design" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-design">Design</span>
+                                <span class="difficulty-badge">Beginner</span>
+                            </div>
+                            <h3 class="skill-card-title">UI/UX Design</h3>
+                            <p class="skill-card-desc">Learn Figma basics, wireframing, responsive layouts, and user design systems.</p>
+                            <p class="skill-card-teacher">Taught by Priya Sharma</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">3 mentors available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 3 - React -->
+                    <div class="skill-card">
+                        <img src="images/skill-react.jpg" alt="React Development" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-programming">Programming</span>
+                                <span class="difficulty-badge">Intermediate</span>
+                            </div>
+                            <h3 class="skill-card-title">React Development</h3>
+                            <p class="skill-card-desc">Build dynamic web interfaces with modern React components, props, and hooks.</p>
+                            <p class="skill-card-teacher">Taught by Rohan Desai</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">4 mentors available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 4 - Figma -->
+                    <div class="skill-card">
+                        <img src="images/skill-figma.jpg" alt="Figma Design" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-design">Design</span>
+                                <span class="difficulty-badge">Beginner</span>
+                            </div>
+                            <h3 class="skill-card-title">Figma Design</h3>
+                            <p class="skill-card-desc">Create modern UI components, interactive clickable prototypes, and style guides.</p>
+                            <p class="skill-card-teacher">Taught by Kavya Nair</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">2 mentors available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 5 - Photography -->
+                    <div class="skill-card">
+                        <img src="images/skill-photography.jpg" alt="Photography Basics" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-photography">Photography</span>
+                                <span class="difficulty-badge">All Levels</span>
+                            </div>
+                            <h3 class="skill-card-title">Photography Basics</h3>
+                            <p class="skill-card-desc">Understand camera exposure triangle, visual composition rules, and photo editing.</p>
+                            <p class="skill-card-teacher">Taught by Aarav Singh</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">1 mentor available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 6 - Spanish -->
+                    <div class="skill-card">
+                        <img src="images/skill-spanish.jpg" alt="Spanish Language" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-language">Language</span>
+                                <span class="difficulty-badge">Beginner</span>
+                            </div>
+                            <h3 class="skill-card-title">Spanish Language</h3>
+                            <p class="skill-card-desc">Practice everyday conversational Spanish, pronunciation, grammar, and vocabulary.</p>
+                            <p class="skill-card-teacher">Taught by Meera Patel</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">2 mentors available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 7 - Public Speaking -->
+                    <div class="skill-card">
+                        <img src="images/skill-speaking.jpg" alt="Public Speaking" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-business">Business</span>
+                                <span class="difficulty-badge">All Levels</span>
+                            </div>
+                            <h3 class="skill-card-title">Public Speaking</h3>
+                            <p class="skill-card-desc">Overcome stage anxiety, master body language, and deliver persuasive presentations.</p>
+                            <p class="skill-card-teacher">Taught by Vikram Joshi</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">1 mentor available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 8 - Mandarin -->
+                    <div class="skill-card">
+                        <img src="images/skill-mandarin.jpg" alt="Mandarin Chinese" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-language">Language</span>
+                                <span class="difficulty-badge">Beginner</span>
+                            </div>
+                            <h3 class="skill-card-title">Mandarin Chinese</h3>
+                            <p class="skill-card-desc">Learn essential Pinyin pronunciation, Chinese tones, and fundamental daily phrases.</p>
+                            <p class="skill-card-teacher">Taught by Li Wei</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">1 mentor available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skill Card 9 - Full Stack -->
+                    <div class="skill-card">
+                        <img src="images/skill-fullstack.jpg" alt="Full Stack Web Development" class="skill-card-image">
+                        <div class="skill-card-body">
+                            <div class="skill-card-meta">
+                                <span class="category-badge badge-programming">Programming</span>
+                                <span class="difficulty-badge">Advanced</span>
+                            </div>
+                            <h3 class="skill-card-title">Full Stack Development</h3>
+                            <p class="skill-card-desc">Connect frontend interfaces with backend servers, REST APIs, and database storage.</p>
+                            <p class="skill-card-teacher">Taught by Neha Gupta</p>
+                            <div class="skill-card-footer">
+                                <span class="mentor-count">3 mentors available</span>
+                                <a href="skill-details.html" class="card-link">View Details →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="logo-icon">SB</div>
+                    <span class="logo-text">SkillBridge</span>
+                </div>
+                <p>A peer-to-peer skill exchange platform built for college students. Learn, share, and grow together.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Platform</h4>
+                    <a href="explore.html">Explore Skills</a>
+                    <a href="mentors.html">Find Mentors</a>
+                    <a href="requests.html">Requests</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Account</h4>
+                    <a href="login.html">Sign In</a>
+                    <a href="login.html">Create Account</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SkillBridge. All rights reserved.</p>
+            <p>Made with ❤️ for students</p>
+        </div>
+    </footer>
+
+</body>
+</html>
